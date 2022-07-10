@@ -21,6 +21,8 @@ public class HelloIndex extends HttpServlet {
         pw.flush();
         System.out.println("version1");
         System.out.println("version2323");
+        System.out.println("version21");
+        System.out.println("version11");
 //        ModelAndView p = new ModelAndView();
 //        req.getRequestDispatcher("/hello.jsp").forward(req, resp);
     }
