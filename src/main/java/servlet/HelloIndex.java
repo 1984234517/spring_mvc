@@ -23,3 +23,14 @@ public class HelloIndex extends HttpServlet {
 //        req.getRequestDispatcher("/hello.jsp").forward(req, resp);
     }
 }
+
+@WebServlet(urlPatterns = "/logout")
+public class Logout extends HttpServlet {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        PrintWriter pw = resp.getWriter();
+        pw.write("\"logout successful\"");
+        pw.flush();
+//        ModelAndView p = new ModelAndView();
+//        req.getRequestDispatcher("/hello.jsp").forward(req, resp);
+    }
+}
