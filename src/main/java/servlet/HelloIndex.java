@@ -19,8 +19,8 @@ public class HelloIndex extends HttpServlet {
         PrintWriter pw = resp.getWriter();
         pw.write("<h1>index, " + name + "!</h1>");
         pw.flush();
-        System.out.println("version1");
         System.out.println("version21");
+        System.out.println("version11");
 //        ModelAndView p = new ModelAndView();
 //        req.getRequestDispatcher("/hello.jsp").forward(req, resp);
     }
